@@ -1,0 +1,16 @@
+.imageContainer {
+  position: relative;
+  overflow: hidden;
+  flex-grow: 999999;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.deleteButton {
+  position: absolute;
+  bottom: 0;
+  left:0;
+  cursor: pointer
+}
